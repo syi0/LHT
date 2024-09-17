@@ -8,5 +8,6 @@ ___
 ### This is english version of our spanish page;)
 ### You can find here any services you want 
 
-##### ```html 
-<span style="color:lightblue">Trello:</span> https://trello.com/b/5oPT6Gex/loshumanostradeos <3 ```
+```html 
+<span style="color:lightblue">Trello:</span> https://trello.com/b/5oPT6Gex/loshumanostradeos <3 
+```
