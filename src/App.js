@@ -1,7 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import { useCookies } from 'react-cookie';
 
-function App() {
+import axios from 'axios';
+function App(props) {
+  console.log(props);
+  const [cookies, setCookie] = useCookies();
+  axios.post('/api/db', {
+    query: "SELECT rowid,info AS id FROM lorem"
+ 
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+
+  if(cookies["userId"]===undefined) {
+    
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +35,15 @@ function App() {
         >
           Learn React
         </a>
+     
       </header>
     </div>
   );
+}
+else {
+  window.open("login","_self");
+}
+
 }
 
 export default App;
