@@ -8,5 +8,5 @@ ___
 ### This is english version of our spanish page;)
 ### You can find here any services you want 
 
-
-#### _Trello_: *https://trello.com/b/5oPT6Gex/loshumanostradeos* ❤
+#### Usefull links:
+> __Trello__: *https://trello.com/b/5oPT6Gex/loshumanostradeos* ❤
