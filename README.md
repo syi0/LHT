@@ -9,4 +9,4 @@ ___
 ### You can find here any services you want 
 
 #### Usefull links:
-> __Trello__: *https://trello.com/b/5oPT6Gex/loshumanostradeos* ❤
+> __Trello__: *https://trello.com/b/5oPT6Gex/loshumanostradeos* 
