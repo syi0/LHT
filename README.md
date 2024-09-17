@@ -9,4 +9,4 @@ ___
 ### You can find here any services you want 
 
 
-$${\color{lightblue}Trello: \space \color{white}https://trello.com/b/5oPT6Gex/loshumanostradeos \space \color{red}<3}$$
+${\color{lightblue}Trello: \space \color{white}https://trello.com/b/5oPT6Gex/loshumanostradeos \space \color{red}<3}$
