@@ -1,5 +1,5 @@
 # LHT Project
-###### By Nataniel Sypko, Kacper Superson, Samuel Piekarski, Michał Murawski, Stefan Wójcik 3TP
+###### Creado por Nataniel Sypko, Kacper Superson, Samuel Piekarski, Michał Murawski, Stefan Wójcik 3TP
 
 ### El mercado donde encontrarás los servicios de los Miloszkos.
 
