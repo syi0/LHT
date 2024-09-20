@@ -1,7 +1,7 @@
 # LHT Project
 ___
 
-## Welcome user to BigMilosz Group!
+## Welcome user to Big Group!
 ### This is english version of our spanish page;)
 ### You can find here any services you want 
 
