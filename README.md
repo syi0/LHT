@@ -1,8 +1,7 @@
 # SellYourCreativity! Welcome to the BigService Group😎
+###### Made by Nataniel Sypko, Michał Murawski, Kacper Superson, Samuel Piekarski, Stefan Wójcik 3TP
 ___
 
-## Welcome user to Big Group!
-### This is english version of our spanish page;)
 ### You can find here any services you want 
 
 #### Usefull links:
