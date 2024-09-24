@@ -1,5 +1,5 @@
-.body {
+div {
     height: 1vh;
     width: 100%;
-    background-color: gray;
+    background: #333;
 }
