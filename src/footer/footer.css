@@ -1,5 +1,27 @@
-.linkList {
-    height: 250px;
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+    width: 100%;
     background-color: black;
-    
+}
+
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+footer li {
+    float: left;
+}  
+
+footer li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
 }
