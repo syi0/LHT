@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: none;
-    background-image: url("background.png");
-    height: 100%;
+    background: url("bg.png");
+    height: 95vh;
 }
 
 .allText {
@@ -11,6 +11,7 @@
     align-items: center;
     text-align: center;
     position: relative;
+    padding: 100px;
 }
 
 .welcome h1 {
@@ -18,4 +19,12 @@
     padding: 2rem 3rem;
     color: #FFFFFF;
     
+}
+
+.allText .logreg button {
+    border: 5px solid black;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin:10px;
+    font-size: 35px;
 }

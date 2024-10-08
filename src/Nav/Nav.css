@@ -1,11 +1,13 @@
 nav {
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
     top: 0;
-    height: 55px;
+    height: 70px;
     width: 100%;
     background-color: black;
+    position:sticky;
+    z-index: 3;
 }
 
 nav ul {
@@ -24,6 +26,7 @@ nav li a {
     color: white;
     padding: 1rem;
     text-decoration: none;
+    font-size: 150%;
 }
 
 @media only screen and (max-width: 600px) {
