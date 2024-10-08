@@ -3,20 +3,17 @@ import './body.css'
     function Body(){
         return(
             <div className = 'body'>
-                <section className='photo'>
-                    <img src="bg-photo" alt="" />
-                </section>
-                <section className='Opis'>
-                    <h1>Witamy w BigService</h1>
-                    <p>To </p>
+                <div className='allText'>
+                    <section className='photo'>
+                        <img src="bg-photo" alt="" />
                     </section>
-                    <section className='logowanie'>
-                    <h2>Tutaj mozemy dac duzy przycik typu zaloguj lub zajerestruj sie</h2>
-                    <button>Zaloguj się</button>
-                    <h3>Lub</h3>
-                    <button>Zarejestruj się</button>
-                </section>
-                
+                    <section className='welcome'>
+                        <h1>Welcome to BigService&trade;</h1>
+                    </section>
+                    <section className='logreg'>
+                        <button>Login</button> <button>Register</button>
+                    </section>
+                </div>
             </div>
         );
     }

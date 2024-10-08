@@ -1,5 +1,13 @@
-div {
-    height: 1vh;
-    width: 100%;
-    background: #333;
+.allText {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.welcome h1 {
+    font-size: 300%;
+    padding: 2rem 3rem;
+    color: #FFFFFF;
+    
 }
