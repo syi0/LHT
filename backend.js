@@ -16,6 +16,7 @@ app.post('/api/db', (req, res) => {
     db.serialize(() => {
         db.all(req.body.query, (err, result) => {    
             res.send(result);
+            console.log(result);
         });
     });
     db.close();
