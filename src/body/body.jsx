@@ -19,6 +19,6 @@ import './body.css'
                 
             </div>
         );
-    }
+    }S
 
 export default Body;
