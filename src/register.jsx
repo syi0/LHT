@@ -3,7 +3,7 @@ import './index.css';
 import './Register.css'
 export default function Register() {
     return (
-        <div className='register'>
+        
             <form action="">
                 <label htmlFor="email"></label>
                 <input type="text" name='email' id='email'/> <br />
@@ -25,6 +25,5 @@ export default function Register() {
                 <input type="text" name='Phone number' id='phoneNumber'/> <br />
             </form>
            
-        </div>
     );
 }
