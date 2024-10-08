@@ -25,3 +25,15 @@ nav li a {
     padding: 1rem;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .navList {
+        display: none;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    .navListSmall {
+        display: none;
+    }
+  }

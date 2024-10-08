@@ -4,6 +4,7 @@ import { useCookies } from 'react-cookie';
 import Nav from './Nav/Nav.jsx'
 import Body from './body/body.jsx'
 import Footer from './footer/footer.jsx'
+import NavSmall from './Nav/NavSmall.jsx'
 
 import axios from 'axios';
 function App(props) {
@@ -26,6 +27,7 @@ function App(props) {
   return (
     <>
       <Nav />
+      <NavSmall />
       <Body />
       <Footer />
     </>
