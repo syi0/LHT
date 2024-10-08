@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import './register.css'
-export default function register() {
+import './Register.css'
+export default function Register() {
     return (
         <div className='register'>
             <form action="">

@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('build'));
 app.use("/login",express.static('build'));
-
+app.use("/register",express.static('build'));
 
 
 
