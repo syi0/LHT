@@ -13,9 +13,15 @@ export default function Register() {
         console.log(formJson);
         console.log(formJson.username);
         axios.post('/api/db', {
-            query: "SELECT COUNT(*) FROM test WHERE username='"+formJson.username+"'"
+          query: "SELECT COUNT(*) FROM test WHERE username='{0}'".format(formJson.username)
          
-          })
+        })
+        .then(function (response) {
+          console.log(response);
+          if(response.data[0]["COUNT(*)"]==0) {
+              console.log("can register");
+          }
+        })
           .then(function (response) {
             console.log(response);
           })
