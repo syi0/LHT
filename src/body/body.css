@@ -1,9 +1,15 @@
+@font-face {
+    font-family: HelpMe;
+    src: url("../HelpMe.ttf");
+  }
+
 .body {
     margin: 0;
     padding: 0;
     box-sizing: none;
     background: url("bg.png");
     height: 95vh;
+    font-family: HelpMe;
 }
 
 .allText {
