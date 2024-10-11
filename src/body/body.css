@@ -1,6 +1,6 @@
 @font-face {
-    font-family: HelpMe;
-    src: url("../HelpMe.ttf");
+    font-family: 'HelpMe';
+    src: url("../HelpMe.ttf") format('truetype');
   }
 
 .body {
@@ -9,7 +9,8 @@
     box-sizing: none;
     background: url("bg.png");
     height: 95vh;
-    font-family: HelpMe;
+    font-family: 'HelpMe';
+    
 }
 
 .allText {
@@ -33,4 +34,5 @@
     padding: 10px 14px;
     margin:10px;
     font-size: 35px;
+    cursor: pointer;
 }
