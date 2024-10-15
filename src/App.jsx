@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useCookies } from 'react-cookie';
 import Nav from './Nav/Nav.jsx'
