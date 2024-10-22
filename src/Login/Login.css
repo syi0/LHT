@@ -15,9 +15,7 @@ form input:active {
     border: 2px solid #fefefe;
 }
 
-label{
-    padding: 1.5rem 1.3rem;
-}
+
 
 .Login{
     display: flex;

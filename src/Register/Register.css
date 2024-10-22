@@ -8,11 +8,6 @@ form {
     text-align: center;
     padding: 8px;
 }
-
-label{
-    padding: 1.5rem 1.3rem;
-}
-
 .register{
     display: flex;
     justify-content: center;
