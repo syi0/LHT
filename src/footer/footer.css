@@ -12,19 +12,23 @@ footer ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    display: inline;
+    display: flex;
+    flex-direction: row;
     text-align: left;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    margin-top: 30px;
+
 }
   
 
-footer li a {
+footer li{
     font-size: 160%;
     text-align: center;
     color: white;
     padding: 1rem;
     text-decoration: none;
+}
+
+i {
+    margin: 5px;
 }
