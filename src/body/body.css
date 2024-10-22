@@ -29,28 +29,19 @@
 }
 
 .allText .logreg button {
-    border: 5px solid black;
-    border-radius: 6px;
-    padding: 10px 14px;
-    margin:10px;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-button {
-    background-color: rgba(51, 51, 51, 0.05);
+    background-color: rgba(255, 255, 255, 0.726);
     border-radius: 8px;
     border-width: 0;
     color: #111;
     cursor: pointer;
     display: inline-block;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 20px;
     list-style: none;
     margin: 0;
-    padding: 10px 12px;
+    padding: 2rem 3rem;
     text-align: center;
     transition: all 200ms;
     vertical-align: baseline;
@@ -58,4 +49,4 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
+}
