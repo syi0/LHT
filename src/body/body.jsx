@@ -11,7 +11,7 @@ import './body.css'
                         <h1>Welcome to BigService&trade;</h1>
                     </section>
                     <section className='logreg'>
-                        <button><a href="/login">Login</a></button> <button><a href="/register">Register</a></button>
+                        <a href="/login"><button>Login</button></a> <a href="/register"><button>Register</button></a>
                     </section>
                 </div>
             </div>
