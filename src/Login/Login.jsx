@@ -10,7 +10,7 @@ export default function Test() {
     const formData = new FormData(form);
     const formJson = Object.fromEntries(formData.entries());
     console.log(formJson.email);
-    let qr=`SELECT Id FROM Login WHERE email='${formJson.email}' AND password='${formJson.password}'`;
+    let qr=`SELECT Id FROM Login WHERE email='${formJson.email}' AND Pasword='${formJson.password}'`;
     axios.post('/api/db', {
       query: qr
      
@@ -21,15 +21,12 @@ export default function Test() {
 
 }
     return (
-        <div className='Login'>
-            <form action="" onSubmit={handleSubmit}> 
-                <h1>Login</h1> <br />
-                <label htmlFor="email">Email: </label> <br />
-                <input type="email" name="email" id="email" /> <br /><br />
-                <label htmlFor="password">Password: </label> <br />
-                <input type="password" name="password" id="password" /><br /><br /><br />
-                <button type="submit">Login</button>
-            </form>
-        </div>
+        <form action="" onSubmit={handleSubmit}>
+           <label htmlFor="email">Email: </label>
+           <input type="email" name="email" id="email" />
+           <label htmlFor="password">Password: </label>
+           <input type="password" name="password" id="password" />
+           <button type="submit"></button>
+        </form>
     );
 }
