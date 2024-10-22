@@ -49,4 +49,12 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.allText .logreg button a {
+    text-decoration: none;
+    color: #111;
+    padding: 3px 4px;
 }

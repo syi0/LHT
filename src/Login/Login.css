@@ -8,12 +8,18 @@ form {
     text-align: center;
     padding: 8px;
 }
+form input {
+    border: 2px solid #fefefe;
+}
+form input:active {
+    border: 2px solid #fefefe;
+}
 
 label{
     padding: 1.5rem 1.3rem;
 }
 
-.register{
+.Login{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,10 +31,11 @@ label{
 }
 
 button {
-  background-color: rgba(51, 51, 51, 0.05);
+  background-color: rgba(245, 245, 245, 0.05);
   border-radius: 8px;
   border-width: 0;
-  color: #111;
+  color: #fefefe;
+  border: 3px solid #fefefe;
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;

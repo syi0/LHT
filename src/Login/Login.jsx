@@ -21,12 +21,15 @@ export default function Test() {
 
 }
     return (
-        <form action="" onSubmit={handleSubmit}>
-           <label htmlFor="email">Email: </label>
-           <input type="email" name="email" id="email" />
-           <label htmlFor="password">Password: </label>
-           <input type="password" name="password" id="password" />
-           <button type="submit"></button>
-        </form>
+        <div className='Login'>
+            <form action="" onSubmit={handleSubmit}> 
+                <h1>Login</h1> <br />
+                <label htmlFor="email">Email: </label> <br />
+                <input type="email" name="email" id="email" /> <br /><br />
+                <label htmlFor="password">Password: </label> <br />
+                <input type="password" name="password" id="password" /><br /><br /><br />
+                <button type="submit">Login</button>
+            </form>
+        </div>
     );
 }
