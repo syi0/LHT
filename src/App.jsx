@@ -4,6 +4,7 @@ import Nav from './Nav/Nav.jsx'
 import Body from './body/body.jsx'
 import Footer from './footer/footer.jsx'
 import NavSmall from './Nav/NavSmall.jsx'
+import Window from './WindowToDoSth/Window.jsx';
 
 import axios from 'axios';
 function App(props) {
@@ -28,6 +29,7 @@ function App(props) {
       <Nav />
       <NavSmall />
       <Body />
+      <Window />
       <Footer />
     </>
   );
