@@ -29,7 +29,6 @@ function App(props) {
       <Nav />
       <NavSmall />
       <Body />
-      <Window />
       <Footer />
     </>
   );
