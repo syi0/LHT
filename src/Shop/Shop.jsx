@@ -10,7 +10,7 @@ export default function Shop() {
                 <li><a href="">x</a></li>
             </nav>
             <main>
-                <button></button>
+                <button>Create your offer!</button>
                 
             </main>
         </div>

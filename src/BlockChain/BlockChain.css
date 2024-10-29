@@ -1,0 +1,12 @@
+.kafelek {
+    background-color: #e8e8e8;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 400px;
+    width: 300px;
+    color: #111;
+}
+.kafelek .offerTitle {
+    font-weight: 600;
+    font-style: italic;
+}
