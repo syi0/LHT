@@ -1,0 +1,9 @@
+#otherType {
+    visibility: hidden;
+}
+
+.window {
+    height: 600px;
+    width: 800px;
+    background: #aaa;
+}
