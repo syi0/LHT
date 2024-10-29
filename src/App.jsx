@@ -10,7 +10,7 @@ import Kafelek from './BlockChain/BlockChain.jsx'
 import axios from 'axios';
 function App(props) {
   console.log(props);
-  const [cookies, setCookie] = useCookies();
+  /*const [cookies, setCookie] = useCookies();
   axios.post('/api/db', {
     query: "SELECT rowid,info AS id FROM lorem"
  
@@ -24,7 +24,7 @@ function App(props) {
 
   if(cookies["userId"]===undefined) {
     
-  
+  */
   return (
     <>
       <Nav />
@@ -34,11 +34,11 @@ function App(props) {
       <Footer />
     </>
   );
-}
-else {
+
+/*else {
   window.open("login","_self");
+}*/
 }
 
-}
 
 export default App;

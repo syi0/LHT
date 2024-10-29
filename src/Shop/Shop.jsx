@@ -1,12 +1,12 @@
 import './Shop.css'
 import { useCookies } from 'react-cookie';
-import { redirect } from 'react-router-dom';
+import  { Navigate  } from 'react-router-dom';
 export default function Shop() {
     const [cookies,,removeCookie] = useCookies();
-    removeCookie('Id');
+  
     console.log(cookies['Id']);
     if(cookies['Id']==undefined) {
-       return redirect("/login");
+       return  <Navigate  to='/login'  />
     } else { 
     return(
         <div className='main'>
