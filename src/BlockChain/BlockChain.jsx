@@ -4,9 +4,9 @@ export default function BlockChain() {
     return(
         <div className='kafelek'>
             <img src="" alt="Zdjęcie ogłoszenia"/>
-            <h4 className='offerTitle'></h4>
+            <h4 className='offerTitle'>AAAA</h4>
 
-            <p className='userId'></p>
+            <p className='userId'>aaa</p>
         </div>
     );
 }

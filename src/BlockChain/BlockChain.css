@@ -1,17 +1,23 @@
 .kafelek {
-    background-color: #e8e8e8;
-    border: 2px solid black;
+    background-color: #fefefe;
+    border: 5px solid black;
     border-radius: 8px;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     color: #111;
+    padding: 3px;
+    margin: 10px;
 }
 .kafelek .offerTitle {
     font-weight: 600;
     font-style: italic;
+    text-align: center;
 }
 
 .kafelek .userId {
+    margin: 1px;
+    padding: 1px 2px;
     opacity: 50%;
     font-size: small;
+    text-align: center;
 }

@@ -5,6 +5,7 @@ import Body from './body/body.jsx'
 import Footer from './footer/footer.jsx'
 import NavSmall from './Nav/NavSmall.jsx'
 import Window from './WindowToDoSth/Window.jsx';
+import Kafelek from './BlockChain/BlockChain.jsx'
 
 import axios from 'axios';
 function App(props) {
@@ -29,6 +30,7 @@ function App(props) {
       <Nav />
       <NavSmall />
       <Body />
+      <Kafelek />
       <Footer />
     </>
   );
