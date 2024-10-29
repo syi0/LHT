@@ -10,3 +10,8 @@
     font-weight: 600;
     font-style: italic;
 }
+
+.kafelek .userId {
+    opacity: 50%;
+    font-size: small;
+}
