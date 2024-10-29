@@ -1,18 +1,14 @@
 import './Window.css'
 
 export default function Window() {
-    selection = document.getElementById("typeOfService")
-    if (selection.value == "other") {
-        document.getElementById("otherType").style.visibility = "visible";
-    } else {
-        document.getElementById("otherType").style.visibility = "hidden";
-    }
+    var stat="visible";
+  
 
     return(
         <div className="window">
             <form action="">
                 <label htmlFor="nazwaUslugi">Nazwa usługi: </label><input type="text" name="nazwaUslugi" id="nazwaUslugi" /> <br />
-                <select name="typeOfService" id="typeOfService">
+                <select style={{visibility: stat}} name="typeOfService" id="typeOfService">
                     <option value="first" defaultChecked>First</option>
                     <option value="second">Second</option>
                     <option value="third">Third etc</option>
