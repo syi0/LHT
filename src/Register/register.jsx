@@ -59,7 +59,7 @@ export default function Register() {
                 <input type="text" name='age' id='age'/><br/>
                 <label htmlFor="phoneNumber">Phone number</label><br/>
                 <input type="text" name='phoneNumber' id='phoneNumber'/> <br/> <br/>
-                <button type='submit'>Register</button>
+                <button type='submit'>Register;)</button>
             </form>
            
         </div>
