@@ -1,9 +1,10 @@
 import React from 'react';
 import axios from 'axios';
+import { useCookies } from 'react-cookie';
 import '../index.css';
 import './Login.css'
-export default function Test() {
-    
+export default function Login() {
+  const [,setCookie] = useCookies();
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -16,7 +17,10 @@ export default function Test() {
      
     })
     .then(function (response) {
-      console.log(response);
+      if(response.data[0]!=undefined) {
+        console.log(response.data[0]['Id']);
+        setCookie('Id',response.data[0]['Id']);
+      }
     })
 
 }
@@ -28,7 +32,7 @@ export default function Test() {
             <input type="email" name="email" id="email" /> <br /><br />
             <label htmlFor="password">Password: </label> <br />
             <input type="password" name="password" id="password" /> <br /> <br />
-            <button type="submit">Login!</button>
+            <button type="submit">Login</button>
           </form>
         </div>
     );
