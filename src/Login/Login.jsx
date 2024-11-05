@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { useCookies } from 'react-cookie';
+import  { Navigate  } from 'react-router-dom';
 import '../index.css';
 import './Login.css'
 export default function Login() {
@@ -20,6 +21,7 @@ export default function Login() {
       if(response.data[0]!=undefined) {
         console.log(response.data[0]['Id']);
         setCookie('Id',response.data[0]['Id'],{path: "/"});
+        return  <Navigate  to='/shop'  />;
       }
     })
 
