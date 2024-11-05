@@ -11,6 +11,7 @@ export default function Shop() {
     return(
         <div className='main'>
             <nav>
+            
             <ul className='navList'>
                 <li><a href="/">Home <i class="fa-solid fa-house"></i></a></li>
                 <li><a href="/shop">Shop <i class="fa-solid fa-shop"></i></a></li>
