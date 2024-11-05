@@ -1,6 +1,5 @@
 import './Nav.css';
-import '../LogoutButton'
-import LogoutButton from '../LogoutButton/LogoutButton';
+import LogoutButton from '../LogoutButton/LogoutButton.jsx';
 
 function Nav() {
     return(

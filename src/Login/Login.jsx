@@ -19,7 +19,7 @@ export default function Login() {
     .then(function (response) {
       if(response.data[0]!=undefined) {
         console.log(response.data[0]['Id']);
-        setCookie('Id',response.data[0]['Id']);
+        setCookie('Id',response.data[0]['Id'],{path: "/"});
       }
     })
 
