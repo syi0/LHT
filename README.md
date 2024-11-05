@@ -6,3 +6,6 @@ ___
 
 #### Usefull links:
 > __Trello__: *https://trello.com/b/5oPT6Gex/loshumanostradeos* 
+
+#### How to open our page:
+```npm install```, następnie ```npm run build```, potem ```npm start```
