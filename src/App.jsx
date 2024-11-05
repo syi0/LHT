@@ -30,7 +30,6 @@ function App(props) {
       <Nav />
       <NavSmall />
       <Body />
-      <Kafelek />
       <Footer />
     </>
   );
