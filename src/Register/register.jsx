@@ -29,6 +29,7 @@ export default function Register() {
                 query: `INSERT INTO Login(Email,Pasword,Adress,Age,Username,PhoneNumber,PostCode,Surname,Name) VALUES ('${formJson.email}','${formJson.password}','${formJson.adress}','${formJson.age}','${formJson.username}','${formJson.phoneNumber}','pstcode','${formJson.surname}','${formJson.name}')`
                
               }).then(function (response) {
+                window.location.href = '/login';
                 console.log(response);
               })
             }
@@ -59,7 +60,7 @@ export default function Register() {
                 <input type="text" name='age' id='age'/><br/>
                 <label htmlFor="phoneNumber">Phone number</label><br/>
                 <input type="text" name='phoneNumber' id='phoneNumber'/> <br/> <br/>
-                <button type='submit'>Register;)</button>
+                <button type='submit'>Register</button>
             </form>
            
         </div>

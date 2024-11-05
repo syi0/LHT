@@ -21,7 +21,7 @@ export default function Login() {
       if(response.data[0]!=undefined) {
         console.log(response.data[0]['Id']);
         setCookie('Id',response.data[0]['Id'],{path: "/"});
-        return  <Navigate  to='/shop'  />;
+        window.location.href = '/shop';
       }
     })
 
