@@ -2,7 +2,7 @@ import './Shop.css'
 import { useCookies } from 'react-cookie';
 import  { Navigate  } from 'react-router-dom';
 export default function Shop() {
-    const [cookies,,removeCookie] = useCookies();
+    const [cookies] = useCookies();
   
     console.log(cookies['Id']);
     if(cookies['Id']==undefined) {
