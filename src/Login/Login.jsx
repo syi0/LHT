@@ -29,12 +29,14 @@ export default function Login() {
     return (
       <div className='Login'>
           <form action="" onSubmit={handleSubmit}>
-            <h1>Login</h1> <br />
+            <h1>Login!</h1> <br />
             <label htmlFor="email">Email: </label> <br />
             <input type="email" name="email" id="email" /> <br /><br />
             <label htmlFor="password">Password: </label> <br />
             <input type="password" name="password" id="password" /> <br /> <br />
-            <button type="submit">Login</button>
+            <button type="submit">Login</button> <br /> <br />
+            <a href="/"><i class="fa-solid fa-arrow-left"></i> Home</a><br />
+            <a href="/register"><i class="fa-solid fa-arrow-left"></i> Register</a>
           </form>
         </div>
     );

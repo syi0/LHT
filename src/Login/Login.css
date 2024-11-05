@@ -28,7 +28,7 @@ form input:active {
     width: 100%;
     background-color: #fefefe;
     color: whitesmoke;
-    box-shadow: 2px 2px 0 0 0.5em black;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 button {

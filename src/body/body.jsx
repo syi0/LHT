@@ -1,14 +1,15 @@
 import './body.css'
+import image from '../assets/image.png'
 
     function Body(){
         return(
             <div className = 'body'>
                 <div className='allText'>
                     <section className='photo'>
-                        <img src="bg-photo" alt="" />
+                        <img className='image' src={image} alt="" />
                     </section>
                     <section className='welcome'>
-                        <h1>Welcome to BigService&trade;</h1>
+                        <h1>Welcome to BigService</h1>
                     </section>
                     <section className='logreg'>
                         <a href="/login"><button>Login</button></a> <a href="/register"><button>Register</button></a>

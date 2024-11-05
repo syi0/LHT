@@ -41,7 +41,7 @@ export default function Register() {
         <div className='register' onSubmit={handleSubmit}>
           
             <form action="">
-            <h1>Zarejestruj się!</h1>
+            <h1>Register!</h1>
                 <label htmlFor="email">Email: </label> <br/>
                 <input type="text" name='email' id='email'/> <br/>
                 <label htmlFor="password">Password: </label><br/>
@@ -60,7 +60,9 @@ export default function Register() {
                 <input type="text" name='age' id='age'/><br/>
                 <label htmlFor="phoneNumber">Phone number</label><br/>
                 <input type="text" name='phoneNumber' id='phoneNumber'/> <br/> <br/>
-                <button type='submit'>Register</button>
+                <button type='submit'>Register</button><br /> <br />
+                <a href="/"><i class="fa-solid fa-arrow-left"></i> Home</a><br />
+                <a href="/login"><i class="fa-solid fa-arrow-left"></i> Login</a>
             </form>
            
         </div>
