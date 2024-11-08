@@ -2,7 +2,6 @@
 form {
     width: 700px;
     height: 600px;
-    background-color: #111;
     border: 1px solid transparent;
     border-radius: 4px;
     align-items: center;
@@ -29,6 +28,7 @@ form input:active {
     background-color: #fefefe;
     color: whitesmoke;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    background-image: url("../assets/background2.png");
 }
 
 button {

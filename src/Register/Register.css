@@ -3,7 +3,6 @@
 form {
     width: 700px;
     height: 750px;
-    background-color: #111;
     border: 1px solid transparent;
     border-radius: 4px;
     align-items: center;
@@ -20,6 +19,7 @@ form {
     background-color: #fefefe;
     color: whitesmoke;
     box-shadow: 2px 2px 0 0 0.5em black;
+    background-image: url("../assets/background2.png");
 }
 
 button {

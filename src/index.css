@@ -16,3 +16,49 @@ a {
 a:hover {
   color: #761069;
 }
+
+button {
+  background-color: rgba(245, 245, 245, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #fefefe;
+  border: 3px solid #fefefe;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  color: #761069;
+  
+}
+
+button:focus {
+  border: #761069 solid 3px;
+}
+
+input {
+  padding: 3px;
+  margin: 5px;
+  border: transparent solid 3px;
+  outline: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background-color: #333;
+}
+input:focus {
+  border: #761069 solid 3px;
+}
