@@ -66,7 +66,7 @@ export default function Shop() {
             </ul>
         </nav>
             <main>
-                <button>Create your offer!</button>
+            
               {offers}
             </main>
         </div>

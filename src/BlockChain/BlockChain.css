@@ -11,6 +11,7 @@
     justify-content: center;
     box-shadow: 5px 4px 0.4em rgba(0, 0, 0, 0.4);
     transition: border 0.25 ease;
+    color: black;
 }
 .kafelek .offerTitle {
     font-weight: 600;
